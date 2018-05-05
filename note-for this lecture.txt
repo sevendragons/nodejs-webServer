@@ -32,6 +32,11 @@ heroku keys:add
 heroku keys
 heroku keys:remove
 ssh -v git@heroku.com
+
+heroku create
+git push heroku
+heroku open
+
 /////
 env >>>>no idea
 
