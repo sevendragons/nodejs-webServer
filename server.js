@@ -4,7 +4,7 @@ const handlebars = require('handlebars');
 const fs = require('fs');
 
 // set port for the applicaition
-const port = process.env.Port || 3000;
+const port = process.env.PORT || 3000;
 var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
