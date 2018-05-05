@@ -37,8 +37,10 @@ heroku create
 git push heroku
 heroku open
 
+///
+
 /////
-env >>>>no idea
+process.env >>>> it is an Object that store all of environment variable as a key value pair
 
 
 ///git////
@@ -46,7 +48,7 @@ git add .    //add everything
 git status   //watch status
 git commit -m 'some comments here'
 git push                  //push or push origin master is ok
-git push  origin master
+git push origin master
 
 ///check repository//
 git remote
