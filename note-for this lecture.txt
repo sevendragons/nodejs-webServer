@@ -34,7 +34,7 @@ heroku keys:remove
 ssh -v git@heroku.com
 
 heroku create
-git push heroku
+git push heroku         //If we change something; we need to push 2nd time, one is for github one is for heroku, weird!!!
 heroku open
 
 ///
