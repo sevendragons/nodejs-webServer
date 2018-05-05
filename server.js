@@ -86,8 +86,12 @@ app.get('/holymoly', (req,res) => {
   });
 });
 
-
-
+//localhost:3000/projects
+app.get('/projects', (req,res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects',
+  });
+});
 
 
 // /bad -send back JSON with errorMessage
