@@ -33,3 +33,20 @@ heroku keys:add
 heroku keys
 heroku keys:remove
 ssh -v git@heroku.com
+/////
+env >>>>no idea
+
+
+
+
+///git////
+git add .    //add everything
+git status   //watch status
+git commit -m 'some comments here'
+git push
+git push  origin master
+
+///check repository//
+git remote add origin https://github.com/repository/repository.git
+git remote
+git remote -v
