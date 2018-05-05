@@ -25,7 +25,6 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 copy and run code in github
 
-
 ////
 heroku --help
 heroku login
@@ -37,16 +36,14 @@ ssh -v git@heroku.com
 env >>>>no idea
 
 
-
-
 ///git////
 git add .    //add everything
 git status   //watch status
 git commit -m 'some comments here'
-git push
+git push                  //push or push origin master is ok
 git push  origin master
 
 ///check repository//
-git remote add origin https://github.com/repository/repository.git
 git remote
 git remote -v
+git remote add origin https://github.com/repository/repository.git
