@@ -1,0 +1,35 @@
+//CREATE GIT inside PROJECT FOLDER
+go to directory terminal:
+"git init" similar "npm init" in nodejs
+"git status" >>> to know the status inside the project folder.
+Keep tracking the status of folder
+
+"git add  file.json"  //could be any kind of file, folder
+
+".gitignore" create this file in the root of folder project
+This file help us to ignore or prevent some file or folder that we dont want to track.
+
+ssh-keygen -t rsa -b 4096 -C 'your_email'
+ls -al ~/.ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rs
+
+/////copy ssh-key in settings of github profile///////
+# Downloads and installs xclip. If you don't have `apt-get`, you might need to use another installer (like `yum`)
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
+
+/////
+
+ssh -T git@github.com
+copy and run code in github
+
+
+////
+heroku --help
+heroku login
+heroku keys:add
+heroku keys
+heroku keys:remove
+ssh -v git@heroku.com

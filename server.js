@@ -3,6 +3,8 @@ const hbs = require('hbs'); //npm  install hbs@4.0.1 --save >>>>depend on versio
 const handlebars = require('handlebars');
 const fs = require('fs');
 
+// set port for the applicaition
+const port = process.env.Port || 3000;
 var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -96,6 +98,9 @@ app.get('/bad', (req,res) => {
 });
 
 //localhost:3000
-app.listen(3000, () => {
-  console.log('Server is up on port 3000');  //show in terminal
+// app.listen(3000, () => {
+//   console.log('Server is up on port 3000');  //show in terminal
+// });
+app.listen(port, () => {
+  console.log(`Server is up on port ${port}`);  //show in terminal
 });
